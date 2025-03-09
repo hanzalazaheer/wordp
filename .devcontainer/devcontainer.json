@@ -1,0 +1,14 @@
+{
+    "name": "Python 3.8 Environment",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+      "ms-python.python"
+    ],
+    "postCreateCommand": "python3 --version"
+  }
+  
